@@ -75,6 +75,8 @@ const ContactForm = (props) => {
         rules={[
           {
             required: true,
+            message: 'Select your gender',
+
           },
         ]}
       >
@@ -91,6 +93,7 @@ const ContactForm = (props) => {
       <Form.Item name="maritalStatus" label="Marital status" rules={[
         {
           required: true,
+          message: 'Select your Marital status',
         },
       ]}>
         <Radio.Group>
